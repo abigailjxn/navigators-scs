@@ -14,7 +14,15 @@ body {
     width: 10em;
 }
 
+button{
+    border-radius: 3em;
+}
+
 #testamonial-1 {
     height: 12em;
     width: 12em
+}
+
+#contactus {
+    background-color: #d19f2a;
 }
