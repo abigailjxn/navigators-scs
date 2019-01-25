@@ -6,11 +6,15 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+/* .uk-slideshow-items {
+    height: 100%;
+} */
+
 #crown-logo {
     width: 10em;
 }
 
 #testamonial-1 {
-    height: 10em;
-    width: 10em
+    height: 12em;
+    width: 12em
 }
