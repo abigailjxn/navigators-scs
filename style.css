@@ -48,6 +48,10 @@ button{
     color: #4FA9B3;
 }
 
+.uk-nav-divider {
+    border-bottom: 1px solid #4FA9B3;
+}
+
 .hidden {
     display: none;
 }
