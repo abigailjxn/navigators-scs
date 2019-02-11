@@ -36,17 +36,29 @@ button{
     background-color: #d19f2a;
 }
 
+#navhamburger {
+    margin: 1em;
+}
+
+#mobilenav {
+    margin: 1em;
+}
+
+#mobilenav a {
+    color: #4FA9B3;
+}
+
 .hidden {
     display: none;
 }
 
-@media only screen and (min-width: 421px) {
+@media only screen and (min-width: 759px) {
     #navhamburger {
       display: none;
     }
   }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 760px) {
     .uk-navbar-container {
       display: none;
     }
