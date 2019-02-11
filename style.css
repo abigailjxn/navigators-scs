@@ -6,6 +6,8 @@ body, p {
     font-family: 'Montserrat', sans-serif;
 }
 
+
+
 .hero p {
     color: white;
 }
@@ -33,3 +35,19 @@ button{
 #contactus {
     background-color: #d19f2a;
 }
+
+.hidden {
+    display: none;
+}
+
+@media only screen and (min-width: 421px) {
+    #navhamburger {
+      display: none;
+    }
+  }
+
+@media only screen and (max-width: 420px) {
+    .uk-navbar-container {
+      display: none;
+    }
+  }

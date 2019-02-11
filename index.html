@@ -25,7 +25,7 @@
 
   <body>
     <div>
-      <nav class="uk-navbar-container" uk-navbar>
+      <nav class="uk-navbar-container" uk-navbar >
         <div class="uk-navbar-left">
           <a href="./index.html">
             <img src="./assets/img/Navigators_Chicago_Color.png"/>
@@ -33,7 +33,7 @@
         </div>
 
         <div class="uk-navbar-right">
-          <ul class="uk-navbar-nav">
+          <ul class="uk-navbar-nav" uk-toggle="cls: uk-nav; mode: media; media: @s">
             <li><a href="./jobs-and-funding.html">Jobs + Funding</a></li>
             <li><a href="./FAQ.html">FAQ</a></li>
             <li>
@@ -46,6 +46,19 @@
         </div>
       </nav>
     </div>
+
+
+    <div id="navhamburger" class="position-top-left">
+        <a class="uk-margin-small-right" uk-icon="menu" ></a>
+    </div>
+
+    <nav class="hidden" id="mobilenav">
+        <ul class="uk-nav">
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+        </ul>
+    </nav>
 
     <section>
       <div
@@ -233,8 +246,15 @@
       </div>
     </section>
 
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.slim.js"
+  integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA="
+  crossorigin="anonymous"></script>
+
     <!-- UIkit JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.2/js/uikit.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.2/js/uikit-icons.min.js"></script>
+
+    <script src="./app.js"></script>
   </body>
 </html>
