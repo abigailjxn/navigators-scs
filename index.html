@@ -1,148 +1,239 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="./assets/img/favicon.png"
+    />
     <!-- UIkit CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.2/css/uikit.min.css" />
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.2/css/uikit.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display:400,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
     <title>Second City Summer 2019</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div>
-        <nav class="uk-navbar-container" uk-navbar>
-            <div class="uk-navbar-left">
-                <a href="./index.html"><img src="./assets/img/Navigators_Chicago_Color.png"></a>
-            </div>
+      <nav class="uk-navbar-container" uk-navbar>
+        <div class="uk-navbar-left">
+          <a href="./index.html">
+            <img src="./assets/img/Navigators_Chicago_Color.png"/>
+        </a>
+        </div>
 
-            <div class="uk-navbar-right">
-                <ul class="uk-navbar-nav">
-                    <li><a href="./jobs-and-funding.html">Jobs + Funding</a></li>
-                    <li><a href="./FAQ.html">FAQ</a></li>
-                    <li><a href="https://abigailjackson.typeform.com/to/YXRIvT">Contact</a></li>
-                    <div class="uk-navbar-item">
-                        <button class="uk-button uk-button-default">APPLY</button>
-                    </div>
-                </ul>
+        <div class="uk-navbar-right">
+          <ul class="uk-navbar-nav">
+            <li><a href="./jobs-and-funding.html">Jobs + Funding</a></li>
+            <li><a href="./FAQ.html">FAQ</a></li>
+            <li>
+              <a href="https://abigailjackson.typeform.com/to/YXRIvT">Contact</a>
+            </li>
+            <div class="uk-navbar-item">
+              <button class="uk-button uk-button-default">APPLY</button>
             </div>
-        </nav>
+          </ul>
+        </div>
+      </nav>
     </div>
+    
     <section>
-        <div class="uk-inline uk-height-viewport uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light"
-            data-src="./assets/img/scs-2.jpg" uk-img>
-            <div class="uk-position-medium uk-position-top  uk-text-center">
-                <img id="crown-logo" src="./assets/img/SCS_crown.png">
-                <h1>Second City Summer</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quisquam id doloremque laudantium eos
-                    aperiam dolor aliquam et, iure cumque, veritatis culpa eligendi velit assumenda ad atque, a natus.
-                    Corrupti.</p>
-                <button id="learn-more-btn" class="uk-button uk-button-secondary uk-button-large">Learn More</button>
-            </div>
+      <div
+        class="uk-inline uk-height-viewport uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light"
+        data-src="./assets/img/scs-2.jpg"
+        uk-img
+      >
+        <div class="uk-position-medium uk-position-top  uk-text-center">
+          <img id="crown-logo" src="./assets/img/SCS_crown.png" />
+          <h1>Second City Summer</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+            quisquam id doloremque laudantium eos aperiam dolor aliquam et, iure
+            cumque, veritatis culpa eligendi velit assumenda ad atque, a natus.
+            Corrupti.
+          </p>
+          <button
+            id="learn-more-btn"
+            class="uk-button uk-button-secondary uk-button-large"
+          >
+            Learn More
+          </button>
         </div>
+      </div>
     </section>
 
     <section>
-        <div>
+      <div>
+        <div
+          class="uk-position-relative uk-visible-toggle uk-dark"
+          tabindex="-1"
+          uk-slideshow="animation: fade; autoplay-interval: 2000; pause-on-hover: true; ratio:false"
+        >
+          <ul class="uk-slideshow-items uk-height-large">
+            <li>
+              <div class="uk-card uk-card-hover uk-width-1-1@s">
+                <div class="uk-card-header">
+                  <div
+                    class="uk-grid-small uk-flex-middle uk-text-center"
+                    uk-grid
+                  >
+                    <div class="uk-width-expand uk-text-center">
+                      <img
+                        id="testamonial-1"
+                        class="uk-border-circle"
+                        src="./assets/img/gio.jpg"
+                        alt=""
+                      />
+                      <h3 class="uk-card-title uk-margin-remove-bottom">Gio</h3>
+                      <p class="uk-text-meta uk-margin-remove-top">
+                        Team Member, 2018
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="uk-card-body uk-text-center">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt. Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Voluptas amet quos magnam
+                    expedita aliquam sequi quas sint deserunt itaque, iste
+                    rerum. Saepe accusamus dolor et suscipit dolores aliquam ex
+                    aut.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="uk-card uk-card-hover uk-width-1-1@s">
+                <div class="uk-card-header">
+                  <div
+                    class="uk-grid-small uk-flex-middle uk-text-center"
+                    uk-grid
+                  >
+                    <div class="uk-width-expand uk-text-center">
+                      <img
+                        id="testamonial-1"
+                        class="uk-border-circle"
+                        src="./assets/img/jayda.jpg"
+                        alt=""
+                      />
+                      <h3 class="uk-card-title uk-margin-remove-bottom">
+                        Jada
+                      </h3>
+                      <p class="uk-text-meta uk-margin-remove-top">
+                        Team Member, 2018
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="uk-card-body uk-text-center">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="uk-card uk-card-hover uk-width-1-1@s">
+                <div class="uk-card-header">
+                  <div
+                    class="uk-grid-small uk-flex-middle uk-text-center"
+                    uk-grid
+                  >
+                    <div class="uk-width-expand uk-text-center">
+                      <img
+                        id="testamonial-1"
+                        class="uk-border-circle"
+                        src="./assets/img/elizabeth-adrien.jpg"
+                        alt=""
+                      />
+                      <h3 class="uk-card-title uk-margin-remove-bottom">
+                        Elizabeth and Adrien
+                      </h3>
+                      <p class="uk-text-meta uk-margin-remove-top">
+                        Team Members, 2018
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="uk-card-body uk-text-center">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt.
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
 
-            <div class="uk-position-relative uk-visible-toggle uk-dark" tabindex="-1" uk-slideshow="animation: fade; autoplay-interval: 2000; pause-on-hover: true; ratio:false">
-
-                <ul class="uk-slideshow-items uk-height-large">
-                    <li>
-                        <div class="uk-card uk-card-hover uk-width-1-1@s">
-                            <div class="uk-card-header">
-                                <div class="uk-grid-small uk-flex-middle uk-text-center" uk-grid>
-
-                                    <div class="uk-width-expand uk-text-center">
-                                        <img id="testamonial-1" class="uk-border-circle" src="./assets/img/gio.jpg" alt="">
-                                        <h3 class="uk-card-title uk-margin-remove-bottom">Gio</h3>
-                                        <p class="uk-text-meta uk-margin-remove-top">Team Member, 2018</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="uk-card-body uk-text-center">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas amet
-                                    quos magnam expedita aliquam sequi quas sint deserunt itaque, iste rerum. Saepe
-                                    accusamus dolor et suscipit dolores aliquam ex aut.</p>
-                            </div>
-                        </div>
-
-                    </li>
-                    <li>
-                        <div class="uk-card uk-card-hover uk-width-1-1@s">
-                            <div class="uk-card-header">
-                                <div class="uk-grid-small uk-flex-middle uk-text-center" uk-grid>
-
-                                    <div class="uk-width-expand uk-text-center">
-                                        <img id="testamonial-1" class="uk-border-circle" src="./assets/img/jayda.jpg"
-                                            alt="">
-                                        <h3 class="uk-card-title uk-margin-remove-bottom">Jada</h3>
-                                        <p class="uk-text-meta uk-margin-remove-top">Team Member, 2018</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="uk-card-body uk-text-center">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt.</p>
-                            </div>
-                        </div>
-
-                    </li>
-                    <li>
-                        <div class="uk-card uk-card-hover uk-width-1-1@s">
-                            <div class="uk-card-header">
-                                <div class="uk-grid-small uk-flex-middle uk-text-center" uk-grid>
-
-                                    <div class="uk-width-expand uk-text-center">
-                                        <img id="testamonial-1" class="uk-border-circle" src="./assets/img/elizabeth-adrien.jpg"
-                                            alt="">
-                                        <h3 class="uk-card-title uk-margin-remove-bottom">Elizabeth and Adrien</h3>
-                                        <p class="uk-text-meta uk-margin-remove-top">Team Members, 2018</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="uk-card-body uk-text-center">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt.</p>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-
-                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous
-                    uk-slideshow-item="previous"></a>
-                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
-                    uk-slideshow-item="next"></a>
-
-            </div>
-
+          <a
+            class="uk-position-center-left uk-position-small uk-hidden-hover"
+            href="#"
+            uk-slidenav-previous
+            uk-slideshow-item="previous"
+          ></a>
+          <a
+            class="uk-position-center-right uk-position-small uk-hidden-hover"
+            href="#"
+            uk-slidenav-next
+            uk-slideshow-item="next"
+          ></a>
         </div>
+      </div>
     </section>
 
-    <hr>
-
+    <hr />
 
     <!-- /////TYPEFORM SURVEY///// -->
     <section id="conatactus" class="uk-section uk-text-center">
-        <div class="uk-container uk-text-center">
-            <h3>Have more questions?</h3>
-            <p>Get in touch and ask a question by filling out the form below:</p>
-            <a class="typeform-share button" href="https://abigailjackson.typeform.com/to/YXRIvT" data-mode="popup"
-                style="display:inline-block;text-decoration:none;background-color:#4FA9B3;color:white;cursor:pointer;font-family:Montserrat,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:25px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;"
-                target="_blank">Contact Us </a>
-            <script> (function () { var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = "typef_orm_share", b = "https://embed.typeform.com/"; if (!gi.call(d, id)) { js = ce.call(d, "script"); js.id = id; js.src = b + "embed.js"; q = gt.call(d, "script")[0]; q.parentNode.insertBefore(js, q) } })() </script>
-        </div>
+      <div class="uk-container uk-text-center">
+        <h3>Have more questions?</h3>
+        <p>Get in touch and ask a question by filling out the form below:</p>
+        <a
+          class="typeform-share button"
+          href="https://abigailjackson.typeform.com/to/YXRIvT"
+          data-mode="popup"
+          style="display:inline-block;text-decoration:none;background-color:#4FA9B3;color:white;cursor:pointer;font-family:Montserrat,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:25px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;"
+          target="_blank"
+          >Contact Us
+        </a>
+        <script>
+          (function() {
+            var qs,
+              js,
+              q,
+              s,
+              d = document,
+              gi = d.getElementById,
+              ce = d.createElement,
+              gt = d.getElementsByTagName,
+              id = "typef_orm_share",
+              b = "https://embed.typeform.com/";
+            if (!gi.call(d, id)) {
+              js = ce.call(d, "script");
+              js.id = id;
+              js.src = b + "embed.js";
+              q = gt.call(d, "script")[0];
+              q.parentNode.insertBefore(js, q);
+            }
+          })();
+        </script>
+      </div>
     </section>
-
 
     <!-- UIkit JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.2/js/uikit.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.2/js/uikit-icons.min.js"></script>
-
-</body>
-
+  </body>
 </html>
