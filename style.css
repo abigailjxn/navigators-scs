@@ -2,13 +2,13 @@ h1, h2, h3 {
     font-family: "Playfair Display", Georgia, 'Times New Roman', Times, serif;
 };
 
-body {
+body, p {
     font-family: 'Montserrat', sans-serif;
 }
 
-/* .uk-slideshow-items {
-    height: 100%;
-} */
+.hero p {
+    color: white;
+}
 
 #crown-logo {
     width: 10em;
@@ -18,6 +18,13 @@ button{
     border-radius: 3em;
 }
 
+#learn-more-btn {
+    background-color: #d19f2a;
+}
+
+/* .uk-slideshow-items {
+    height: 100%;
+} */
 #testamonial-1 {
     height: 12em;
     width: 12em
