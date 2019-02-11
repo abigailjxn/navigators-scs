@@ -22,9 +22,9 @@ button{
     background-color: #d19f2a;
 }
 
-/* .uk-slideshow-items {
-    height: 100%;
-} */
+.slideshow {
+    height: 600px;
+}
 #testamonial-1 {
     height: 12em;
     width: 12em
