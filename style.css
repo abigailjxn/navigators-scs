@@ -16,6 +16,10 @@ body, p {
     width: 10em;
 }
 
+#date, #location {
+    margin: 0;
+}
+
 button{
     border-radius: 3em;
 }
