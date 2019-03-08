@@ -64,6 +64,11 @@ button{
     margin: 1em;
 }
 
+#FAQ-list {
+    list-style-type: none;
+    
+}
+
 #navhamburger {
     margin: 1em;
 }
