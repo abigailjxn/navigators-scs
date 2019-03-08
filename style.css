@@ -49,15 +49,16 @@ button{
     text-align: center;
 }
 
-#footer-link {
-
+#motto{
+    font-family: 'Montserrat', sans-serif;
+    font-size: .7em;
+    margin: 0 .5em 0 .5em;
 }
 
-#footer-logo {
-
+#copyright-statement {
+    font-family: 'Montserrat', sans-serif;
+    font-size: .7em;
 }
-
-
 
 #navhamburger {
     margin: 1em;
