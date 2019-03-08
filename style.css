@@ -60,6 +60,10 @@ button{
     font-size: .7em;
 }
 
+.hero-text {
+    margin: 1em;
+}
+
 #navhamburger {
     margin: 1em;
 }
@@ -80,6 +84,10 @@ button{
     display: none;
 }
 
+em {
+    color: #4FA9B3;
+}
+
 
 @media only screen and (min-width: 759px) {
     #navhamburger {
@@ -94,7 +102,5 @@ button{
     .hero-img {
         height: 600px;
     }
-
-
 
   }
